@@ -88,16 +88,16 @@ function toggleSelect(event) {
     // atualizar o meu input hidden com o valor selecionado
     const input = document.querySelector('[name="open_on_weekends"]')
 
-    input.value = button.dataSet.value
+    input.value = button.dataset.value
     // verificar se sim ou não
 }
 
 // desafio
-function validate(event) {
+//function validate(event) {
     // validar se lat e lng estão preenchidos
-
-    if(aa) {
-        event.preventDefault()
-        alert('Selecione um ponto no mapa')
-    }
-}
+//    const needsLatAndLng = true
+//    if(needsLatAndLng) {
+//        event.preventDefault()
+ //       alert('Selecione um ponto no mapa')
+ //   }
+//}

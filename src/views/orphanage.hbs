@@ -44,11 +44,13 @@
         <img src="{{orphanage.firstImage}}" alt="{{orphanage.name}}" />
 
         <div class="images">
+
           {{#each orphanage.images }}
-            <button onclick="selectImage(event)" class="active" type="button">
-              <img src="{{this}}" alt="{{orphanage.name}}" />
-            </button>
+          <button onclick="selectImage(event)" class="active" type="button">
+            <img src="{{this}}" alt="{{orphanage.name}}" />
+          </button>
           {{/each}}
+
         </div>
 
         <div class="orphanage-details-content">
@@ -75,6 +77,7 @@
               <img src="/images/clock.svg" alt="Horários" />
               {{orphanage.opening_hours}}
             </div>
+
             {{#if orphanage.open_on_weekends}}
             <div class="open-on-weekends open">
               <img src="/images/info.svg" alt="Informações" />
@@ -86,10 +89,11 @@
               Não atendemos fim de semana
             </div>
             {{/if}}
+            
           </div>
 
-          <a href="https://api.whatsapp.com/send?l=pt_BR&phone={{orphanage.whatsapp}}&text=Oi, quero conversar sobre as visitas no {{orphanage.name}}" target="_blank"
-            class="primary-button" type="button">
+          <a href="https://api.whatsapp.com/send?l=pt_BR&phone={{orphanage.whatsapp}}&text=Oi, quero conversar sobre as visitas no {{orphanage.name}}"
+            target="_blank" class="primary-button" type="button">
             <img src="/images/whatsapp.svg" alt="Chamar no whatsapp" />
             Entrar em contato
           </a>

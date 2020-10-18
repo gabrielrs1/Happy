@@ -47,7 +47,7 @@
       </aside>
 
       <main class="animate-appear with-sidebar">
-        <form action="save-orphanage" method="POST" onsubmit="validate(event)"> <!-- method POST para formulario -->
+        <form action="save-orphanage" method="POST" ><!--onsubmit="validate(event) - desafio"--> <!-- method POST para formulario -->
           <fieldset>
             <legend>Dados</legend>
             <div class="map-container">
@@ -80,10 +80,9 @@
                 <div class="new-upload">
                   <input
                     name="images"
-                    type="text"
                     placeholder="Cole o link da foto aqui"
-                    required
                     type="url"
+                    required
                   />
                   <span onclick="deleteField(event)">
                     <img
@@ -111,10 +110,10 @@
               ></textarea>
             </div>
             <div class="input-block">
-              <label for="opening_hours">Nome</label>
+              <label for="opening_hours">Horário das visitas</label>
               <input
                 id="opening_hours"
-                name="opening-hours"
+                name="opening_hours"
                 type="text"
                 required
               />
