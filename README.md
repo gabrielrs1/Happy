@@ -3,7 +3,7 @@
 <p>JavaScript</p>
 <p>HTML5</p>
 <p>CSS3</p>
-Node.js as dependências:
+Node.js com as dependências:
 <ul>
   <li>Express</li>
   <li>Nodemon</li>
