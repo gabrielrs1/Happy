@@ -3,8 +3,8 @@
 <p>JavaScript</p>
 <p>HTML5</p>
 <p>CSS3</p>
+Node.js as dependências:
 <ul>
-  Node.js as dependências:
   <li>Express</li>
   <li>Nodemon</li>
   <li>Handlebars</li>
