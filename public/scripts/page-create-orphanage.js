@@ -93,11 +93,13 @@ function toggleSelect(event) {
 }
 
 // desafio
-//function validate(event) {
+function validate(event) {
     // validar se lat e lng estão preenchidos
-//    const needsLatAndLng = true
-//    if(needsLatAndLng) {
-//        event.preventDefault()
- //       alert('Selecione um ponto no mapa')
- //   }
-//}
+    const lat = document.querySelector('[name=lat]').value
+    const lng = document.querySelector('[name=lng]').value
+
+    if(lat == 0 && lng == 0) {
+        event.preventDefault()
+        alert('Selecione um ponto no mapa')
+    }
+}
