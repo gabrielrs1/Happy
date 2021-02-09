@@ -1,7 +1,5 @@
 # Happy
 
-Projeto desenvolvido na 3º edição do Next Level Week, feita pela Rocketseat!
-
 <p>Tecnologias usadas:</p>
 <p>JavaScript</p>
 <p>HTML5</p>
