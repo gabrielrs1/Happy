@@ -14,9 +14,10 @@ Ou baixe os arquivos
 
 ## Executar:
 
-No terminal execute <code>yarn start</code>
+No terminal execute <code>yarn</code>.
+Em seguida <code>yarn start</code>
 
-Após isso abra seu navegador e vá na url <code>http://<span></span>localhost:3000/</code>
+Após isso abra o seu navegador e entre na url <code>http://<span></span>localhost:3000/</code>
  
 ## Tecnologias usadas:
 
